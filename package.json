@@ -1,0 +1,31 @@
+{
+  "name": "discord-pronoun-bot",
+  "version": "1.0.0",
+  "description": "A simple discord bot for assigning pronoun roles to users in a given discord server using the Discord.js node module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuf75588/discord-pronoun-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuf75588/discord-pronoun-bot/issues"
+  },
+  "homepage": "https://github.com/tuf75588/discord-pronoun-bot#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.3",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.1.0",
+    "install": "^0.13.0",
+    "npm": "^6.11.3"
+  }
+}
