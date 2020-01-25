@@ -45,7 +45,7 @@ client.on('message', (message) => {
     }
   } else if (command === 'beepboop') {
     message.channel.send(`Hello ${message.author.username}! ❤ `);
-  } else if (command === 'help') {
+  } else if (command === 'pnhelp') {
     message.channel.send(`Welcome to Pronoun Bot!`);
     message.channel.send(
       `Using !pronoun [pronoun] will add a pronoun for the user. Note that you must use this format: they/them.`
