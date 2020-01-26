@@ -48,6 +48,10 @@ client.on('message', (message) => {
     }
   } else if (command === 'beepboop') {
     message.channel.send(`Hello ${message.author.username}! ❤ `);
+  } else if (command === 'sooler') {
+    message.channel.send(
+      'The rootinest, tootinest, shootinist and kindest cowboy north, south, east and west of the Mason-Dixon line. 🤠'
+    );
   } else if (command === 'pnhelp') {
     message.channel.send('Welcome to Pronoun Bot!');
     message.channel.send(
