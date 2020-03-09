@@ -47,11 +47,7 @@ client.on('message', (message) => {
       message.channel.send(`Removing ${pn} for ${message.author.username}.`);
     }
   } else if (command === 'beepboop') {
-    message.channel.send(`Hello ${message.author.username}! ❤ `);
-  } else if (command === 'sooler') {
-    message.channel.send(
-      'The rootinest, tootinest, shootinist and kindest cowboy north, south, east and west of the Mason-Dixon line. 🤠'
-    );
+    message.channel.send(`https://media.giphy.com/media/McL8Gf7q6LAY0/giphy.gif`);
   } else if (command === 'pnhelp') {
     message.channel.send('Welcome to Pronoun Bot!');
     message.channel.send(
