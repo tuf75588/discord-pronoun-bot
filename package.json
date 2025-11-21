@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/tuf75588/discord-pronoun-bot#readme",
   "devDependencies": {
-    "nodemon": "^1.19.3",
+    "nodemon": "^3.1.11",
     "prettier": "^1.18.2"
   },
   "dependencies": {
